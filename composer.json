@@ -1,0 +1,22 @@
+{
+    "name": "codememory/toolbar",
+    "description": "toolbar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danil",
+            "email": "kostynd1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Codememory\\Component\\Toolbar\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}
