@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-    <link rel="stylesheet" href="Resources/css/default.css">
+    <style>
+        <?php echo file_get_contents(__DIR__.'/../css/default.css'); ?>
+    </style>
 </head>
 <body>
 <?php
@@ -119,6 +121,8 @@ if ($responseTime < 1000) {
         </svg>
     </ul>
 </div>
-<script type="application/javascript" src="Resources/js/default.js"></script>
+<script>
+    <?php echo file_get_contents(__DIR__.'/../js/default.js'); ?>
+</script>
 </body>
 </html>
