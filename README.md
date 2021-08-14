@@ -1,16 +1,17 @@
 # Toolbar
 
+**Шаблон по умолчанию:**
 ![Toolbar Example](./Resources/images/toolbar.png)
 
-# Установка
+## Установка
 
 ```
 composer require codememory/toolbar
 ```
 
-# Примеры использования
+## Примеры использования
 
-```php 
+```php
 <?php
 
 use Codememory\Component\Toolbar\Toolbar;
@@ -23,8 +24,8 @@ $toolbar = new Toolbar();
 $toolbar->connectToolbar();
 ```
 
-# Custom template
-```php 
+## Custom template
+```php
 <?php
 
 use Codememory\Component\Toolbar\Toolbar;
